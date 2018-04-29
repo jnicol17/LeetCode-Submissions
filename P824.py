@@ -17,6 +17,14 @@
 #For example, the first word gets "a" added to the end, the second word gets "aa" added to the end and so on.
 #Return the final sentence representing the conversion from S to Goat Latin.
 
+#Example 1:
+#Input: "I speak Goat Latin"
+#Output: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+
+#Example 2:
+#Input: "The quick brown fox jumped over the lazy dog"
+#Output: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
+
 class Solution(object):
     def toGoatLatin(self, S):
         """
